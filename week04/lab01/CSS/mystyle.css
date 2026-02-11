@@ -1,0 +1,18 @@
+body {
+    
+      background-color:#FFFFE0;
+}
+
+h1, h2, h3 {
+    background-color: blue;
+    color:#FFFFE0;
+    text-align: center;
+
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: navy;
+
+}
