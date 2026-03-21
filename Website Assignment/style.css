@@ -1,0 +1,49 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: red;
+    color:white;
+    padding: 1em;
+            margin: 0;
+
+}
+
+h1 {
+   font-family: The Amazing Spider-man;
+}
+h2 {
+    font-family: homoarakhn;
+}
+ nav {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+          display: flex;
+          justify-content: space-between;
+ }
+
+  nav a:link,
+        nav a:visited {
+            background-color: white;
+            border: 2px solid black;
+            border-radius: .5em;
+            color: black;
+            padding: .5em;
+            text-decoration: none;
+            font-family: homoarakhn;
+        }
+
+        p {
+            font-size: smaller;
+            text-align: left;
+        
+        }
+
+        figcaption {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: smaller;
+        
+    
+        }
+
+
+      
