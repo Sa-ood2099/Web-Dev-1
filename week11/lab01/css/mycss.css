@@ -1,0 +1,45 @@
+html,body {
+  width:100%;
+  height:100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size:16px;
+}
+
+/* Tabular Menu */
+.ui.tabular.menu {
+    margin-bottom:1em;
+}
+
+/* Menu items */
+.ui.tabular.menu .item {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight:bold;
+}
+
+/* Hover */
+.ui.tabular.menu .item:hover {
+    background-color:#d80101;
+    color:rgb(199, 0, 0);
+    border-radius: 0.28571429rem 0.28571429rem 0px 0px !important;
+    border-color: #d00000;
+}
+
+/* Active */
+.ui.tabular.menu .active.item {
+    background-color:#256290;
+    color:rgb(184, 0, 0);
+    border-color: #256290;
+}
+
+/*Bottom segment */
+.ui.bottom.attached.segment {
+  background: none transparent;
+  border-color: #9FB6CD;
+}
+
+

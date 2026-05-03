@@ -1,0 +1,135 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: red;
+    color:white;
+    padding: 1em;
+            margin: 0;
+
+}
+
+h1 {
+   font-family: The Amazing Spider-man;
+   text-align: center;
+}
+h2 {
+    font-family: homoarakhn;
+}
+ nav {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+          display: flex;
+          justify-content: space-between;
+ }
+
+  nav a:link,
+        nav a:visited {
+            background-color: white;
+            border: 2px solid black;
+            border-radius: .5em;
+            color: black;
+            padding: .5em;
+            text-decoration: none;
+            font-family: homoarakhn;
+        }
+
+        p {
+            font-size: smaller;
+            text-align: left;
+        
+        }
+
+        figcaption {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: smaller;
+        
+    
+        }
+
+        .form-row {
+   	display: flex;
+}
+
+.form-row > label {
+    flex: 0 1 20%;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+form input, form select {
+    flex: 1; 
+    padding: .5em;
+    margin-bottom: 1em;
+}
+
+fieldset {
+     border: solid black 1px; 
+     margin-bottom:1em;
+}
+
+.check > label {
+     display: block;
+}
+
+
+ table {
+       border-collapse: collapse;
+       border: 2px solid black;
+       letter-spacing: 1px;
+       font-size: 0.8rem;
+       margin:0em 0em 3em 1em;
+     }
+
+     td, th {
+       border: 1px solid black;
+       padding: 10px 20px;
+     }
+
+     th {
+       background-color: black;
+     }
+
+
+
+       .ui.tabular.menu {
+    margin-bottom:1em;
+}
+
+
+.ui.tabular.menu .item {
+    font-family: homoarakhn;
+    color: black;
+    font-weight:bold;
+}
+
+
+.ui.tabular.menu .item:hover {
+    background-color:#9FB6CD;
+    color:white;
+    border-radius: 0.28571429rem 0.28571429rem 0px 0px !important;
+    border-color: #9FB6CD;
+}
+
+
+.ui.tabular.menu .active.item {
+    background-color:#256290;
+    color:white;
+    border-color: #256290;
+}
+
+
+.ui.bottom.attached.segment {
+  background: none transparent;
+  border-color: #9FB6CD;
+}
+
+.ui.collapsing.table{
+    background: red;
+    color: white;
+}
+    
+
+
+
+
+      
